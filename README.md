@@ -1,0 +1,44 @@
+# 머신러닝 완전 정복
+
+『머신러닝 완전 정복』(김영희 지음)의 예제 코드입니다. 책의 각 장에서 따라 입력하는 코드가 장별 폴더에 노트북으로 들어 있습니다.
+
+## 폴더 구성
+
+| 부 | 장 | 제목 | 노트북 |
+|---|---|---|---|
+| 1부 분석에서 예측으로 | 1 | 훈련 오차와 시험 오차 | `ch01/ch01_train_and_test_error.ipynb` |
+| | 2 | 특성 공학 | `ch02/ch02_feature_engineering.ipynb` |
+| | 3 | 데이터 누수와 자료 나누기 | `ch03/ch03_data_leakage.ipynb` |
+| | 4 | 기준선 모델 | `ch04/ch04_baselines.ipynb` |
+| 2부 성능평가 | 5 | 회귀 평가 지표 | `ch05/ch05_regression_metrics.ipynb` |
+| | 6 | 분류 평가 지표 | `ch06/ch06_classification_metrics.ipynb` |
+| | 7 | 확률 보정 | `ch07/ch07_calibration.ipynb` |
+| | 8 | 지표의 불확실성 | `ch08/ch08_metric_uncertainty.ipynb` |
+| | 9 | 모델 선택과 검증 자료 | `ch09/ch09_model_selection.ipynb` |
+| 3부 머신러닝 | 10 | 선형 회귀의 계수 추정과 규제 | `ch10/ch10_linear_regression_regularization.ipynb` |
+| | 11 | 로지스틱 회귀 | `ch11/ch11_logistic_regression.ipynb` |
+| | 12 | 결정트리와 랜덤 포레스트 | `ch12/ch12_trees_and_forests.ipynb` |
+| | 13 | 그레이디언트 부스팅 | `ch13/ch13_gradient_boosting.ipynb` |
+| | 14 | 모델 해석: 특성 중요도와 부분 의존도 | `ch14/ch14_model_interpretation.ipynb` |
+| | 15 | 레이블이 없는 자료: k-평균 군집과 주성분 분석 | `ch15/ch15_clustering_pca.ipynb` |
+| 4부 실험과 보고 | 16 | 실험 기록과 최종 평가 | `ch16/ch16_records_and_final_test.ipynb` |
+
+## 실행 방법
+
+구글 코랩에서 노트북을 열고, 첫 칸의 안내대로 내려받은 파일을 왼쪽 파일 창에 올린 다음 위에서부터 차례로 실행합니다. 노트북에는 실행 결과를 넣지 않았습니다. 결과는 직접 실행해서 책의 출력과 비교합니다.
+
+책 본문에는 그래프를 그리는 코드를 싣지 않았습니다. 그래프 코드는 노트북에서 첫 줄이 `# 그림 N-n`인 셀에 있습니다.
+
+8장부터는 끝까지 실행하는 데 몇 분이 걸리는 노트북이 많습니다. 걸리는 시간은 각 노트북의 첫 칸에 적혀 있습니다.
+
+## 자료
+
+이 저장소에는 자료 파일을 넣지 않았습니다. 모두 누구나 내려받을 수 있는 공공 자료이고 『데이터 분석 완전 정복』에서 쓴 것과 같습니다. 공공 파일은 매달 수정되므로 받은 날짜가 다르면 책의 숫자와 소수 끝자리가 다를 수 있습니다.
+
+| 장 | 자료 | 받는 곳 |
+|---|---|---|
+| 1, 3, 9, 11, 12, 13, 15 | 시간별 전국 전력수요량 | [공공데이터포털](https://www.data.go.kr/data/15065266/fileData.do) |
+| 1, 3, 9, 11, 12, 13, 15 | 종관기상관측(ASOS) 시간자료 | [기상자료개방포털](https://data.kma.go.kr/data/grnd/selectAsosRltmList.do?pgmNo=36) |
+| 2, 3, 5, 10, 12, 13, 14, 16 | 아파트 매매 실거래가 (서울, 계약일 2023. 1. 1. ~ 2026. 10. 31.) | [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr) |
+| 4, 15 | 서울시 지하철 호선별 역별 시간대별 승하차 인원 정보 | [서울 열린데이터광장](https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do) |
+| 6, 7, 8, 9, 10, 11, 12, 13, 14 | 일반음식점(중국식) 현황 | [경기데이터드림](https://data.gg.go.kr) |
